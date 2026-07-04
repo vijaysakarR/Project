@@ -1,0 +1,1 @@
+Open index.html in a browser. Replace images and links as needed. Contact form is demo-only.

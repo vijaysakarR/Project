@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Vijay Sakar — 3D Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css">
+  <!-- AOS for reveal animations -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <!-- NAV -->
+  <nav class="navbar navbar-expand-lg navbar-dark nav-glass">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Vijay Sakar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto align-items-center">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html" style="margin-right: 10px;">Contact</a></li>
+          <a href="https://github.com/vijaysakarR" target="_blank" class="social"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/vijaysakar6?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B9cj8Lg8hQEulGA7xUj5wNg%3D%3D" target="_blank" class="social ms-3"><i class="fab fa-linkedin"></i></a>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header id="home" class="hero d-flex align-items-center">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6" data-aos="fade-up">
+          <p class="hello">Hello, <span class="accent">I'm Vijay Sakar.</span></p>
+          <h1 class="display-4 fw-bold glow">Python Full Stack<span class="muted">Developer</span></h1>
+          <p class="lead">I design and build modern web apps. Main skills:    Python , Django , JavaScript , MySQL , Bootstrap , CSS , HTML</p>
+          <div class="mt-4">
+            <a href="#projects" class="btn btn-outline-light btn-lg btn-3d me-2">View Projects</a>
+            <a href="contact.html" class="btn btn-light btn-lg btn-3d">Let's Talk</a>
+          </div>
+        </div>
+        <div class="col-lg-6 text-center" data-aos="zoom-in" data-aos-delay="120">
+          <!-- 3D tilt profile card -->
+          <div class="tilt-card" data-tilt data-tilt-max="15" data-tilt-scale="1.03" data-tilt-glare="true" data-tilt-max-glare="0.25">
+            <img src="asstes/IMG_6757.jpg" alt="profile" class="profile-img rounded-3"/>
+            <!-- <div class="badge">PyFull Stack</div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">Skills</h2>
+      <!-- <p class="text-muted" data-aos="fade-up" data-aos-delay="80">Tap/click percent or scroll to animate.</p> -->
+      <div class="row mt-4">
+        <div class="col-md-6">
+          <div class="skill" data-aos="fade-right" data-aos-delay="120">
+            <div class="d-flex justify-content-between"><strong>HTML</strong><span class="skill-percent" data-percent="95">95%</span></div>
+            <div class="bar"><div class="bar-fill" style="width:0%" data-target="95"></div></div>
+          </div>
+          <div class="skill" data-aos="fade-right" data-aos-delay="170">
+            <div class="d-flex justify-content-between"><strong>CSS</strong><span class="skill-percent" data-percent="92">92%</span></div>
+            <div class="bar"><div class="bar-fill" style="width:0%" data-target="92"></div></div>
+          </div>
+          <div class="skill" data-aos="fade-right" data-aos-delay="220">
+            <div class="d-flex justify-content-between"><strong>Bootstrap</strong><span class="skill-percent" data-percent="60">60%</span></div>
+            <div class="bar"><div class="bar-fill" style="width:0%" data-target="60"></div></div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="skill" data-aos="fade-left" data-aos-delay="270">
+            <div class="d-flex justify-content-between"><strong>JavaScript</strong><span class="skill-percent" data-percent="75">75%</span></div>
+            <div class="bar"><div class="bar-fill" style="width:0%" data-target="75"></div></div>
+          </div>
+          <div class="skill" data-aos="fade-left" data-aos-delay="320">
+            <div class="d-flex justify-content-between"><strong>Python</strong><span class="skill-percent" data-percent="80">80%</span></div>
+            <div class="bar"><div class="bar-fill" style="width:0%" data-target="80"></div></div>
+          </div>
+          <div class="skill" data-aos="fade-left" data-aos-delay="370">
+            <div class="d-flex justify-content-between"><strong>SQL</strong><span class="skill-percent" data-percent="80">80%</span></div>
+            <div class="bar"><div class="bar-fill" style="width:0%" data-target="80"></div></div>
+          </div>
+           <div class="skill" data-aos="fade-left" data-aos-delay="370">
+            <div class="d-flex justify-content-between"><strong>React.js</strong><span class="skill-percent" data-percent="70">70%</span></div>
+            <div class="bar"><div class="bar-fill" style="width:0%" data-target="70"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section dark-section">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">Projects</h2>
+      <div class="row mt-4 g-4">
+        <div class="col-md-6" data-aos="zoom-in" data-aos-delay="120">
+          <div class="project tilt-card" data-tilt data-tilt-max="10" data-tilt-scale="1.02">
+            <div class="project-media"><i class="fa-solid fa-train fa-2x"></i></div>
+            <div class="project-body">
+              <h3>Railway Connection System</h3>
+              <p>Railway Connection System full-stack app for live station status, train schedules, PNR, booking history. Built with Bootstrap, JS frontend, Python backend, and SQL database.</p>
+              <ul class="features">
+                <li>Spot your train & live updates</li>
+                <li>Search trains between stations</li>
+                <li>PNR & Booking history</li>
+              </ul>
+              <div class="mt-3">
+                <a href="E:\update\RES_final\index.html" class="btn btn-light btn-sm btn-3d">View</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="col-md-6" data-aos="zoom-in" data-aos-delay="170">
+          <div class="project tilt-card" data-tilt data-tilt-max="10" data-tilt-scale="1.02">
+            <div class="project-media"><i class="fa-solid fa-code fa-2x"></i></div>
+            <div class="project-body">
+              <h3>UI Component Library</h3>
+              <p>Reusable components for dashboards and admin panels built with Bootstrap and custom CSS.</p>
+              <div class="mt-3"><a href="#" class="btn btn-outline-light btn-sm btn-3d">View</a></div>
+            </div>
+          </div>
+        </div> -->
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container d-flex justify-content-between align-items-center">
+      
+      <div>© <strong>Vijay Sakar</strong>
+      </div>
+      <p><i class="fa-solid fa-envelope" style="margin-right: 10px;"></i>vijaysakar160@gmail.com </p>
+    </div>
+     <div>
+       <p><i class="fa-solid fa-phone" style="margin-left: 1195px; margin-right: 10px;" ></i>770-819-2507</p>
+      </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+  <script> AOS.init({duration:700, once:true}); </script>
+</body>
+</html>
